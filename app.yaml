@@ -1,0 +1,18 @@
+name: VoiceBot
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/VoiceBot
+  original_url: https://huggingface.co/spaces/Chris4K/VoiceBot
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
